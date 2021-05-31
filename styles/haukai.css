@@ -1,0 +1,112 @@
+body{
+    font-family: 'Times New Roman', serif !important;            /* override the bootstrap default font family*/
+    background-color: whitesmoke;
+    height: 100%;
+    font-size: 1.5vw;
+}
+
+header {
+    padding: 0.5vw; 
+    color: white;
+    background-color: black;
+}
+
+.navbar {
+    background-color: black !important;
+    color: white !important;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color:black !important;
+}
+
+
+.row {
+     margin-left: 2em;
+     margin-right: 2em;
+ } 
+
+ h1 {
+    text-align: center;
+    font-size: 6vw;
+ }
+
+h2{
+    text-align: center;
+    font-size: 3vw;
+}
+
+h3{
+    font-size: 2.5vw;
+}
+
+ul {
+    font-size: 2vw;
+}
+
+a {
+    color: black;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 2vw;
+}
+
+.center {                                   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+
+Footer p {
+    font-size: 1.5vw;
+}
+
+legend {
+    font-size: 3.5vw;
+}
+
+dt, dd {                                        
+    font-size: 2vw;
+}
+
+
+#map
+{
+        margin-left: 0%;
+        height: 400px;
+        width: 500px;
+        max-width: 100%;
+}
+
+iframe {
+    border: none;
+}
+
+.spacer {                           
+    content: '';
+    width: 100%;
+    margin: 1.0rem;
+  }
+
+.table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+}
+
+th {
+   font-size: 2.5vw;
+}
+
+td {
+    font-size: 2vw;
+  }

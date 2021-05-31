@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Access Restricted To Staff Only"
+AuthUserFile /BIT607_AS3/staff_roster/.htpasswd
+require valid-user
