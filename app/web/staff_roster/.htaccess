@@ -2,3 +2,4 @@ AuthType Basic
 AuthName "Access Restricted To Staff Only"
 AuthUserFile /app/.htpasswd
 require valid-user
+ErrorDocument 401 "Authorisation Required"
