@@ -14,9 +14,11 @@
 
     <!-- scripts for this page -->        
     <script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC5T93O1eODQ2KsQOxkkto21w34SO9jD-U&callback=initMap' type='text/javascript'></script>
-    <!-- <script src='./scripts/map.js'></script> -->
-
-    <script>
+    
+    <!-- had to put the map script back into this page as the Heroku site couldn't display the map when the script was in another file-->
+    <!-- Have left the scripts file in the web folder in case the website gets deployed to a different hosting option that does not have an issue -->
+    <!-- with the separate <script src='./scripts/map.js'></script>  file. -->
+    <script> 
         function initMap() 
     {   // changed the address from the ficticious 1 Island Street, Kerikeri that was on the menu in appendix B as I wanted to be able to add co-ordinates to my Google map on the contacts page
         var op = {lat: -35.229446557132064, lng: 173.94719161177437}; //coordinates for 35 Kerikeri Rd, Kerikeri. 
