@@ -65,7 +65,9 @@ p {
     width: 100%;
   }
 
-
+footer {
+    text-align: left;
+}
 Footer p {
     font-size: 1.5vw;
 }
